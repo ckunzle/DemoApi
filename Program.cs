@@ -10,7 +10,7 @@ var app = builder.Build();
 // if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();    // optional in Azure
 
 var summaries = new[]
 {
