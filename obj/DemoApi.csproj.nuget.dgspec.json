@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ckunz\\source\\repos\\DemoApi\\DemoApi.csproj": {}
+    "C:\\Users\\ckunz\\source\\repos\\DemoApi\\DemoApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ckunz\\source\\repos\\DemoApi\\DemoApi.csproj": {
+    "C:\\Users\\ckunz\\source\\repos\\DemoApi\\DemoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ckunz\\source\\repos\\DemoApi\\DemoApi.csproj",
+        "projectUniqueName": "C:\\Users\\ckunz\\source\\repos\\DemoApi\\DemoApi.csproj",
         "projectName": "DemoApi",
-        "projectPath": "c:\\Users\\ckunz\\source\\repos\\DemoApi\\DemoApi.csproj",
+        "projectPath": "C:\\Users\\ckunz\\source\\repos\\DemoApi\\DemoApi.csproj",
         "packagesPath": "C:\\Users\\ckunz\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ckunz\\source\\repos\\DemoApi\\obj\\",
+        "outputPath": "C:\\Users\\ckunz\\source\\repos\\DemoApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -54,6 +54,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.7.0, )"
             }
           },
           "imports": [
