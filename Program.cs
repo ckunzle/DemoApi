@@ -3,13 +3,13 @@ using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add Swagger services
+// Add Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Enable Swagger middleware
+// Enable Swagger UI
 app.UseSwagger();
 app.UseSwaggerUI();
 
