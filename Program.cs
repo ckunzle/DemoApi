@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Hosting;
-using Microsoft.OpenApi.Models;      // needed for swagger options
 
 var builder = WebApplication.CreateBuilder(args);
 
