@@ -3,14 +3,16 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;      // needed for swagger options
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Add Swagger services
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
 
-// Serve OpenAPI (swagger.json)
-app.MapOpenApi();
-
-// Serve Swagger UI explicitly
+// Enable Swagger middleware
 app.UseSwagger();
-app.UseSwaggerUI(); // <-- this ensures /swagger/index.html is available
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
